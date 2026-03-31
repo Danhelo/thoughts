@@ -25,16 +25,21 @@ jobs:
 
       - name: Copy publishable content
         run: |
-          # Clean existing content (keep index.md)
-          find content -mindepth 1 -not -name 'index.md' -delete 2>/dev/null || true
+          # Only sync vault-sourced folders (preserve manually added content like Projects/Horus)
+          rm -rf content/Ideas content/Materials content/Metanotes
+          mkdir -p content/Ideas content/Materials content/Metanotes
 
-          # Copy only safe folders
-          mkdir -p content/Ideas content/Materials content/Metanotes content/Projects
-
+          # Copy safe folders from vault
           cp -r vault/THE\ Journal/Ideas/* content/Ideas/ 2>/dev/null || true
-          cp -r vault/Materials/* content/Materials/ 2>/dev/null || true
-          cp -r vault/Metanotes/* content/Metanotes/ 2>/dev/null || true
-          cp -r vault/Projects/* content/Projects/ 2>/dev/null || true
+          cp -r vault/Materials/*.md content/Materials/ 2>/dev/null || true
+          cp -r vault/Metanotes/*.md content/Metanotes/ 2>/dev/null || true
+
+          # Remove files that do NOT have publish: true (privacy gate)
+          find content/Ideas content/Materials content/Metanotes -name '*.md' | while read f; do
+            if ! grep -q 'publish: true' "$f" 2>/dev/null; then
+              rm "$f"
+            fi
+          done
 
       - name: Commit and push if changed
         run: |
