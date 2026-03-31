@@ -1,0 +1,8 @@
+---
+title: "Is-Ought problem IS Samsara"
+publish: true
+---
+
+the problem with chasing happiness is a reexpression of philosophy's is-ought problem.
+The life you WANT is a normative statement, and you can never reach it from descriptive statements (what you HAVE).
+Therefore happiness is only achieved when it is found EXCLUSIVELY in descriptive statements (what you have). This is the point of meditation and spirituality, enhancing awareness and consciousness to recognize the true state of things as the only state that one should pay attention to, and thus derive mental states (like happiness) from. 

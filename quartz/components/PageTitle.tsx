@@ -8,7 +8,10 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
   const baseDir = pathToRoot(fileData.slug!)
   return (
     <h2 class={classNames(displayClass, "page-title")}>
-      <a href={baseDir}>{title}</a>
+      <a href="https://danhelo.com">
+        danhelo<span class="page-title-dot">.</span>
+      </a>
+      <a href={baseDir} class="page-title-section">thoughts</a>
     </h2>
   )
 }
@@ -18,6 +21,27 @@ PageTitle.css = `
   font-size: 1.75rem;
   margin: 0;
   font-family: var(--titleFont);
+  display: flex;
+  align-items: baseline;
+  gap: 0.15rem;
+}
+.page-title a {
+  color: var(--dark);
+  text-decoration: none;
+}
+.page-title-dot {
+  color: var(--secondary);
+}
+.page-title-section {
+  font-size: 1rem;
+  font-family: var(--bodyFont);
+  color: var(--gray) !important;
+  margin-left: 0.35rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.page-title-section:hover {
+  color: var(--secondary) !important;
 }
 `
 

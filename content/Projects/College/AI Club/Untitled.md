@@ -1,0 +1,1 @@
+#AI #MSU/AIClub #workshop 

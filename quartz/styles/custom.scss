@@ -1,3 +1,185 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+/* ============================================
+   danhelo. thoughts — custom theme
+   Matches the warm scholarly aesthetic of danhelo.com
+   ============================================ */
+
+/* --- Global transitions --- */
+body {
+  transition: background-color 700ms ease, color 700ms ease;
+}
+
+/* --- Selection --- */
+::selection {
+  background-color: var(--secondary);
+  color: var(--light);
+}
+
+/* --- Typography refinements --- */
+h1, h2, h3, h4 {
+  letter-spacing: -0.02em;
+  line-height: 1.12;
+}
+
+article p,
+article li {
+  line-height: 1.8;
+}
+
+/* --- Blockquote styling (match main site) --- */
+article blockquote {
+  border-left: 2px solid var(--secondary);
+  color: var(--dark);
+  font-family: var(--titleFont);
+  font-size: 1.35rem;
+  font-style: italic;
+  line-height: 1.5;
+  margin: 2rem 0;
+  padding-left: 1.5rem;
+}
+
+/* --- Code blocks (match main site border-radius) --- */
+pre {
+  border-radius: 1.25rem !important;
+  border: 1px solid var(--lightgray) !important;
+}
+
+code {
+  border-radius: 0.5rem;
+}
+
+/* --- Search input (pill shape) --- */
+.search-bar {
+  border-radius: 999px;
+  border: 1px solid var(--lightgray);
+  transition: border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.search-bar:focus-within {
+  border-color: var(--secondary);
+  box-shadow: 0 0 0 3px rgba(140, 94, 53, 0.12);
+}
+
+[saved-theme="dark"] .search-bar:focus-within {
+  box-shadow: 0 0 0 3px rgba(212, 162, 78, 0.12);
+}
+
+/* --- Explorer refinements --- */
+.explorer {
+  margin-top: 1rem;
+}
+
+button.explorer-toggle {
+  font-family: var(--bodyFont);
+  letter-spacing: 0.02em;
+}
+
+/* --- Graph styling --- */
+.graph > h3 {
+  font-family: var(--bodyFont);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* --- Backlinks --- */
+.backlinks > h3 {
+  font-family: var(--bodyFont);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* --- Tag pills --- */
+a.tag-link {
+  border-radius: 999px;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.82rem;
+  font-family: var(--bodyFont);
+  background: var(--highlight);
+  transition: background 180ms ease, color 180ms ease;
+}
+
+a.tag-link:hover {
+  background: var(--secondary);
+  color: var(--light);
+}
+
+/* --- Footer --- */
+footer {
+  opacity: 0.7;
+  transition: opacity 300ms ease;
+}
+
+footer:hover {
+  opacity: 1;
+}
+
+footer a {
+  font-family: var(--bodyFont);
+}
+
+/* --- Links --- */
+article a {
+  text-underline-offset: 0.2em;
+}
+
+article a:hover {
+  color: var(--tertiary);
+}
+
+/* --- Popover refinements --- */
+.popover {
+  border-radius: 1.25rem;
+  border: 1px solid var(--lightgray);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+}
+
+/* --- Callout refinements --- */
+.callout {
+  border-radius: 1.25rem;
+}
+
+/* --- Content meta --- */
+.content-meta {
+  font-family: var(--bodyFont);
+  letter-spacing: 0.02em;
+}
+
+/* --- Breadcrumbs --- */
+.breadcrumb-container {
+  font-family: var(--bodyFont);
+  opacity: 0.7;
+}
+
+/* --- Smooth page transitions --- */
+#quartz-body {
+  transition: opacity 200ms ease;
+}
+
+/* --- Image styling --- */
+article img {
+  border-radius: 1.4rem;
+  margin: 2rem auto;
+  display: block;
+}
+
+/* --- Recent notes on landing page --- */
+.recent-notes h3 {
+  font-family: var(--titleFont);
+}
+
+.recent-notes .recent-note {
+  border-bottom: 1px solid var(--lightgray);
+  padding: 1rem 0;
+}
+
+/* --- Mobile refinements --- */
+@media (max-width: 800px) {
+  .page-title {
+    font-size: 1.4rem;
+  }
+
+  .page-title-section {
+    font-size: 0.85rem !important;
+  }
+}
