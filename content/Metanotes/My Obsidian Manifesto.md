@@ -1,3 +1,8 @@
+---
+title: "My Obsidian Manifesto"
+publish: true
+---
+
 forgot to mention. I was introduced to Obsidian by [[No Boilerplate]], the YT channel. Created on [[2024-02-24]]. 
 ## Why?
 I have been struggling trying to start using Notion to tie all of my life together, but its hard to know exactly HOW to organize everything. If I have a big page for college, life, goals, etc. It should be easy for me just to put all that shit in one place. Actually, its more about my thoughts not the actual life management. I might use notion for that or sm.

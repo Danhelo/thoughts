@@ -1,3 +1,8 @@
+---
+title: "Mindfulness Meditation"
+publish: true
+---
+
 #self/meditation #mindfulness 
 
 Pursuing [[Waking Up App]] approach, designed not to calm down or de stress, but to observe the nature of my own mind, to discover fundamental truths about it.

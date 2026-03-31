@@ -1,3 +1,8 @@
+---
+title: "Substack essay series outline"
+publish: true
+---
+
 **CONSOLIDATED ESSAY SERIES OUTLINE + NOTES**
 
 **CORE METAPHYSICAL FRAMEWORK (The Inversion)**

@@ -1,3 +1,8 @@
+---
+title: "On the topology of interestingness"
+publish: true
+---
+
 #philosophy 
 
 Make an LLM / Vectorizer powered program that quantifies how “crazy” / schizo a sentence is, as a function of the “unexpectedness” of the token elements as in never-before-seen combinations. It would then normalize the space with a metric of coherence.

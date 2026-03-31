@@ -1,3 +1,8 @@
+---
+title: "The Comfortable Life is Killing You"
+publish: true
+---
+
 #reading/article #self #philosophy 
 https://substack.com/home/post/p-157966334
 

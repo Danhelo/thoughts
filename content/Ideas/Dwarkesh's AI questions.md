@@ -1,3 +1,8 @@
+---
+title: "Dwarkesh's AI questions"
+publish: true
+---
+
 [Link to substack article](https://substack.com/home/post/p-161809078)
 
 What started as an attempt to consolidate some thoughts from the last few interviews on [my podcast](https://www.youtube.com/c/DwarkeshPatel) has turned into this 6,000 word clusterfuck of questions and considerations.

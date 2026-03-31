@@ -7,6 +7,7 @@ annotated: false
 tags:
   - reading/book
   - economics/macro
+publish: true
 ---
 ## Source:
 

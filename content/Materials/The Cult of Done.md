@@ -1,3 +1,8 @@
+---
+title: "The Cult of Done"
+publish: true
+---
+
 #community #productivity #reading/article 
 ## Manifesto:
 https://medium.com/@bre/the-cult-of-done-manifesto-724ca1c2ff13

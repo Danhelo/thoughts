@@ -1,3 +1,8 @@
+---
+title: "Additive Growth"
+publish: true
+---
+
 #economics/macro 
 ## Abstract - Original Idea
 Growth theory is based on the assumption of exponential total factor productivity (TFP) growth. Across countries and time periods I find that TFP growth is additive. There is no evidence that TFP increments increase with the level of TFP as predicted by the exponential model. Even starting from low priors, Bayesian estimation selects the additive model over the exponential one. The additive growth model, unlike the exponential one, provides useful long-term forecasts for TFP. For the distant past the model suggests piecewise linear evolutions with infrequent changes: the size of TFP increments increases around 1650, 1830 and 1930. For the distant future the model predicts ever increasing increments in standards of living but with falling real interest rates and growth rates that converge to zero

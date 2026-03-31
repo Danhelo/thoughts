@@ -9,6 +9,7 @@ tags:
   - philosophy
   - reading/book/novel
   - self/meditation
+publish: true
 ---
 ## Source: Phyical copy bought from B&N
 

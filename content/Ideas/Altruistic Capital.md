@@ -1,3 +1,8 @@
+---
+title: "Altruistic Capital"
+publish: true
+---
+
 # **New social order**
 
 Create a new sort of “capital” powered by technology. It would be an [[altruist currency]] where people gain “money” (this new currency) by virtue of how they help others get this money.
