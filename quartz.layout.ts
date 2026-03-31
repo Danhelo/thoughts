@@ -10,9 +10,9 @@ export const sharedPageComponents: SharedLayout = {
       provider: "giscus",
       options: {
         repo: "Danhelo/thoughts",
-        repoId: "",
+        repoId: "R_kgDOR2PwNA",
         category: "Announcements",
-        categoryId: "",
+        categoryId: "DIC_kwDOR2PwNM4C5umA",
         mapping: "pathname",
         strict: false,
         reactionsEnabled: true,
