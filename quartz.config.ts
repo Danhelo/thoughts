@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "en-US",
-    baseUrl: "danhelo.com/thoughts",
+    baseUrl: "thoughts.danhelo.com",
     ignorePatterns: [
       "private",
       "Templates",
