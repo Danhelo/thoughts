@@ -1,8 +1,3 @@
----
-title: "Marketism"
-publish: true
----
-
 Have the [[altruist currency]] follow this logic:
 
 Traditional [[Capitalism]] determines profit by increasing capital. The only objective is to always accumulate more capital. While this drives short term growth, long term it leads to market inefficiencies as incentive structures for capital aggregation permeate the political system, and everything becomes capitalismified. 

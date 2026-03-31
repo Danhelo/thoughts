@@ -1,5 +1,4 @@
 ---
-publish: true
 title: 
 author: 
 last-read: ""

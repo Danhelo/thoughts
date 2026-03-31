@@ -1,8 +1,3 @@
----
-title: "Graph Neural Networks"
-publish: true
----
-
 #AI/Graphs 
 [https://arxiv.org/abs/2202.07256](https://arxiv.org/abs/2202.07256 "https://arxiv.org/abs/2202.07256")
 

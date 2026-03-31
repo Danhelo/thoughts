@@ -1,5 +1,4 @@
 ---
-publish: true
 title: "The Man Who Solved the Market: How Jim Simons launched the quant revolution"
 author: Gregory Zuckerman
 last-read: ""

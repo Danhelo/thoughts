@@ -1,8 +1,3 @@
----
-title: "Hypergraphical Universe"
-publish: true
----
-
 Concept I pieced together from [[Stephen Wolfram]] and [[Joscha Bach]]'s Lex fridman episodes lmao.
 
 To Delve deeper, read [[Informational Absorption List#^781235|this item]]. 

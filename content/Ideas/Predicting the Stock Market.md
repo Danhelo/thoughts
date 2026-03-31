@@ -1,8 +1,3 @@
----
-title: "Predicting the Stock Market"
-publish: true
----
-
 #economics/finance
 
 It started with Newton and some guys in the 1800s trying to price options. They used [[Expected Value]] to match buyers and sellers.

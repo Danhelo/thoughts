@@ -1,8 +1,3 @@
----
-title: "hypergraph"
-publish: true
----
-
 From Wikipedia, the free encyclopedia https://en.wikipedia.org/wiki/Hypergraph
 
 [![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Hypergraph-wikipedia.svg/262px-Hypergraph-wikipedia.svg.png)](https://en.wikipedia.org/wiki/File:Hypergraph-wikipedia.svg)

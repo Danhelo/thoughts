@@ -1,12 +1,3 @@
----
-title: "Neurosity: EEG Focus Tracking"
-publish: true
-tags:
-  - project
-  - AI
-  - neuroscience
----
-
 start watching at 12:31:30
 
 omeleo :2:25:00 am

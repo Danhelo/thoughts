@@ -1,5 +1,4 @@
 ---
-publish: true
 title: Siddartha
 author: Herman Hesse
 last-read: 2024-05-02

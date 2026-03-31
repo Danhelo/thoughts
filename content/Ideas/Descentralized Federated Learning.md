@@ -1,8 +1,3 @@
----
-title: "Descentralized Federated Learning"
-publish: true
----
-
 
 
 [**Federated Learning With Blockchain for Autonomous Vehicles: Analysisand Design Challenges**](https://www.notion.so/Federated-Learning-With-Blockchain-for-Autonomous-Vehicles-Analysisand-Design-Challenges-03e2ed27e42e4962a40ae14fede80ccd?pvs=21)

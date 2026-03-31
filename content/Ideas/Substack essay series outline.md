@@ -1,8 +1,3 @@
----
-title: "Essay Series: Spirits and Substrates"
-publish: true
----
-
 **CONSOLIDATED ESSAY SERIES OUTLINE + NOTES**
 
 **CORE METAPHYSICAL FRAMEWORK (The Inversion)**

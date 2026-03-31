@@ -1,8 +1,3 @@
----
-title: "Spiritual Topological Meaning Inversion"
-publish: true
----
-
 [[Substack essay series outline]] 
 
 Raw notes (possession part 1):

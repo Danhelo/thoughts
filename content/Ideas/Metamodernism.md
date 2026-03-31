@@ -1,8 +1,3 @@
----
-title: "Metamodernism"
-publish: true
----
-
 Look for [[Dave Shapiro YT's]] explanation.
 
 But from what I understood, it's the philosophical movement concept that asserts that we must move away from the two meaning deconstructing approaches of Western thought's last 500 years.
